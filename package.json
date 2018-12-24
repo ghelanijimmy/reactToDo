@@ -1,0 +1,48 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo react app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghelanijimmy/reactToDo.git"
+  },
+  "keywords": [
+    "react",
+    "todo",
+    "npm",
+    "node"
+  ],
+  "author": "Jimmy Ghelani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghelanijimmy/reactToDo/issues"
+  },
+  "homepage": "https://github.com/ghelanijimmy/reactToDo#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^2.0.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.13"
+  }
+}
